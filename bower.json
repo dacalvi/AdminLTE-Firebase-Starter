@@ -1,36 +1,35 @@
 {
-  "name": "AdminLTE",
-  "homepage": "http://almsaeedstudio.com",
+  "name": "AdminLTE-Firebase-Starter",
   "authors": [
-    "Abdullah Almsaeed <support@almsaeedstudio.com>"
+    "Daniel Calvi <dacalvi@gmail.com>"
   ],
-  "description": "Admin dashboard and control panel template",
-  "main": [
-    "index2.html",
-    "dist/css/AdminLTE.css",
-    "dist/js/app.js",
-    "build/less/AdminLTE.less"
+  "description": "A Starter Template for a Firebase Admin Panel themed By AdminLTE",
+  "main": "www/index.html",
+  "moduleType": [
+    "amd"
   ],
   "keywords": [
-    "css",
-    "js",
-    "html",
-    "template",
-    "admin",
-    "bootstrap",
-    "theme",
-    "backend",
-    "responsive"
+    "Firebase",
+    "AdminLTE",
+    "CRUD",
+    "Starter",
+    "Template",
+    "Facebook",
+    "Login"
   ],
   "license": "MIT",
+  "homepage": "http://robob.io",
   "ignore": [
-    "/.*",
+    "**/.*",
     "node_modules",
     "bower_components",
-    "composer.json",
-    "documentation"
+    "www/lib",
+    "test",
+    "tests"
   ],
-  "devDependencies": {
-    "angular": "angularjs#^1.5.0"
+  "dependencies": {
+    "angular": "angularjs#^1.5.0",
+    "angular-route": "^1.5.0",
+    "bootstrap": "^3.3.6"
   }
 }
